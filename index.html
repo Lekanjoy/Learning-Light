@@ -8,292 +8,289 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <div class="content">
+        <header>
+          <div class="search">
+            <input type="search" placeholder="Search" id="search" />
+            <img src="/assets/search.svg" alt="search icon">
+        </div>
+          <div class="user">
+            <img src="./assets/notification.svg" alt="notification bell icon" />
+            <div style="display: flex; column-gap: 4px; align-items: center">
+              <img src="./assets/debra.png" alt="profile icon" />
+              <p>Debra Cooper</p>
+            </div>
+          </div>
+        </header>
+        <aside>
+          <div class="logo">
+            <img src="./assets//sun.svg" alt="Sun Icon" />
+            <h1>LearningLight</h1>
+          </div>
+          <nav>
+            <div class="item">
+              <img src="./assets/home.svg" alt="home icon" />
+              <p style="color: var(--blueColor)">Home</p>
+            </div>
+            <div class="item">
+              <img src="./assets/courses.svg" alt="course icon" />
+              <p>Courses</p>
+            </div>
+            <div class="item">
+              <img src="./assets/bulb.svg" alt="training icon" />
+              <p>Training</p>
+            </div>
+            <div class="item">
+              <img src="./assets/stats.svg" alt="Statistics icon" />
+              <p>Statistics</p>
+            </div>
+            <div class="item">
+              <img src="./assets/settings.svg" alt="  Settings icon" />
+              <p>Settings</p>
+            </div>
+          </nav>
+          <div class="homework">
+            <div class="title">
+              <div>
+                <img src="./assets/book.svg" alt="homework icon" />
+                <p>Homework</p>
+              </div>
+              <img src="/assets/arrow_right.svg" alt="arrow_right" />
+            </div>
+            <div class="items">
+              <div class="item">
+                <p class="title">Basics of Composition</p>
+                <input type="range" id="range" min="0" max="100" value="80" />
+                <div class="completion">
+                  <p>4/5</p>
+                  <p>80%</p>
+                </div>
+              </div>
+              <div class="item">
+                <p class="title">Typography Basics</p>
+                <input type="range" id="range" min="0" max="100" value="60" />
+                <div class="completion">
+                  <p>3/5</p>
+                  <p>60%</p>
+                </div>
+              </div>
+              <div class="item">
+                <p class="title">Color Basics</p>
+                <input type="range" id="range" min="0" max="100" value="40" />
+                <div class="completion">
+                  <p>2/5</p>
+                  <p>40%</p>
+                </div>
+              </div>
+              <div class="item">
+                <p class="title">Modular mesh</p>
+                <input type="range" id="range" min="0" max="100" value="60" />
+                <div class="completion">
+                  <p>3/5</p>
+                  <p>60%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <main>
+          <section class="category">
+            <div class="item">English</div>
+            <div class="item">Product</div>
+            <div
+              style="background-color: var(--blueColor); color: white"
+              class="item"
+            >
+              UX/UI Design
+            </div>
+            <div class="item">Photography</div>
+            <div class="item">Time Management</div>
+            <div class="item">Development</div>
+            <div class="item">Graphic Design</div>
+            <div class="item">History of England</div>
+          </section>
+          <section class="cards">
+            <p class="box-title">
+              Article <span style="color: var(--blueColor)">162</span>
+            </p>
+            <div class="left-cards">
+              <div class="card1">
+                <div class="details">
+                  <div class="description">
+                    <h1>
+                      Inclusive Design <br />
+                      Principles
+                    </h1>
+                    <div class="clock">
+                      <img src="/assets/clock.svg" alt="clock icon" />
+                      <span>5 min</span>
+                    </div>
+                  </div>
+                  <div class="author">
+                    <img src="/assets/rosemary.png" alt="author icon" />
+                    <div>
+                      <p>Rosemary Steward</p>
+                      <span>Feb 11</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- illustration image -->
+                <img class="design" src="/assets/design.png" alt="illustration image"/>
+              </div>
+              <div class="card2">
+                <div class="details">
+                  <div class="description">
+                    <h1>
+                      Design Trends <br />
+                      in 2020
+                    </h1>
+                    <div class="clock">
+                      <img src="/assets/clock.svg" alt="clock icon" />
+                      <span>1 min</span>
+                    </div>
+                  </div>
+                  <div class="author">
+                    <img src="/assets/bessie.png" alt="author icon" />
+                    <div>
+                      <p>Bessie Bell</p>
+                      <span>Feb 4</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- illustration image -->
+                <img class="globe" src="/assets/globe.png" alt="illustration image">
+              </div>
+            </div>
+            <div class="right-cards">
+              <p class="box-title">
+                Theme Chats <span style="color: var(--blueColor)">24</span>
+              </p>
+              <div class="card">
+                <img src="/assets/edu.png" alt="Education illustration" />
+                <p>Education</p>
+              </div>
+              <div class="card">
+                <img src="/assets/work.png" alt="Work illustration" />
+                <p>Work</p>
+              </div>
+              <div class="card">
+                <img src="/assets/uni.png" alt="University illustration" />
+                <p>University</p>
+              </div>
+              <div class="card">
+                <img src="/assets/tech.png" alt="Technology illustration" />
+                <p>Technology</p>
+              </div>
+            </div>
+          </section>
+          <section class="cards videos">
+            <p class="box-title">
+              Video Lessons <span style="color: var(--blueColor)">124</span>
+            </p>
+            <div class="left-cards">
+              <div class="card1">
+                <h1>
+                  We create effective <br />
+                  texts for landing
+                </h1>
+                <div class="author author-vid">
+                  <img src="/assets/randall.png" alt="author icon" />
+                  <div>
+                    <p style="color: white">Randall Mccoy</p>
+                    <span>CEO, California Tech.</span>
+                  </div>
+                </div>
+                <div class="duration">10.08</div>
+              </div>
+              <div class="card-grid">
+                <div class="card-item">
+                  <p>We make a website busines card. Training</h3>
+                   <div class="author author-vid">
+                  <img src="/assets/jorge.png" alt="author icon" />
+                  <div>
+                    <p style="color: white">Jorge Murphy</p>
+                    <span>Senior Designer</span>
+                  </div>
+                </div>
+                </div>
+                <div class="card-item">
+                  <p>Web animation. The basics</h3>
+                   <div class="author author-vid">
+                  <img src="/assets/randal.png" alt="author icon" />
+                  <div>
+                    <p style="color: white">Randall Richards</p>
+                    <span>Art Director</span>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-cards">
+              <div class="box-title">
+                <p>Top Teachers</p>
+                <img src="/assets//arrow_right.svg" alt="arrow_right" />
+              </div>
+              <div class="teacher">
+                <div style="display: flex; column-gap: 12px; align-items: center">
+                  <img
+                    src="/assets/marvin.png"
+                    alt="Teacher avatar"
+                    style="width: 50px; height: 50px"
+                  />
+                  <div>
+                    <h4>Marvin Hawkins</h4>
+                    <p>5 years experience</p>
+                  </div>
+                </div>
+                <span style="color: var(--blueColor); font-weight: 700">5.0</span>
+              </div>
+              <div class="teacher">
+                <div style="display: flex; column-gap: 12px; align-items: center">
+                  <img
+                    src="/assets/arthur.png"
+                    alt="Teacher avatar"
+                    style="width: 50px; height: 50px"
+                  />
+                  <div>
+                    <h4>Arthur Mckinney</h4>
+                    <p>6 years experience</p>
+                  </div>
+                </div>
+                <span style="color: var(--blueColor); font-weight: 700">4.9</span>
+              </div>
+              <div class="teacher">
+                <div style="display: flex; column-gap: 12px; align-items: center">
+                  <img
+                    src="/assets/watson.png"
+                    alt="Teacher avatar"
+                    style="width: 50px; height: 50px"
+                  />
+                  <div>
+                    <h4>Bessie Watson</h4>
+                    <p>2 years experience</p>
+                  </div>
+                </div>
+                <span style="color: var(--blueColor); font-weight: 700">4.8</span>
+              </div>
+              <div class="teacher">
+                <div style="display: flex; column-gap: 12px; align-items: center">
+                  <img
+                    src="/assets/albert.png"
+                    alt="Teacher avatar"
+                    style="width: 50px; height: 50px"
+                  />
+                  <div>
+                    <h4>Albert Bell</h4>
+                    <p>3 years experience</p>
+                  </div>
+                </div>
+                <span style="color: var(--blueColor); font-weight: 700">4.8</span>
+              </div>
+            </div>
+          </section>
+        </main>
+    </div>
       <h1 class="alert">Please View on a Laptop or any other Larger Device(s)</h1>
-    <header>
-      <input type="search" placeholder="Search" id="search" />
-      <div class="user">
-        <img src="./assets/notification.svg" alt="notification bell icon" />
-        <div style="display: flex; column-gap: 4px; align-items: center">
-          <img src="./assets/debra.png" alt="profile icon" />
-          <p>Debra Cooper</p>
-        </div>
-      </div>
-    </header>
 
-    <aside>
-      <div class="logo">
-        <img src="./assets//sun.svg" alt="Sun Icon" />
-        <h1>LearningLight</h1>
-      </div>
-
-      <nav>
-        <div class="item">
-          <img src="./assets/home.svg" alt="home icon" />
-          <p style="color: var(--blueColor)">Home</p>
-        </div>
-        <div class="item">
-          <img src="./assets/courses.svg" alt="course icon" />
-          <p>Courses</p>
-        </div>
-        <div class="item">
-          <img src="./assets/bulb.svg" alt="training icon" />
-          <p>Training</p>
-        </div>
-        <div class="item">
-          <img src="./assets/stats.svg" alt="Statistics icon" />
-          <p>Statistics</p>
-        </div>
-        <div class="item">
-          <img src="./assets/settings.svg" alt="  Settings icon" />
-          <p>Settings</p>
-        </div>
-      </nav>
-      <div class="homework">
-        <div class="title">
-          <div>
-            <img src="./assets/book.svg" alt="homework icon" />
-            <p>Homework</p>
-          </div>
-          <img src="/assets/arrow_right.svg" alt="arrow_right" />
-        </div>
-        <div class="items">
-          <div class="item">
-            <p class="title">Basics of Composition</p>
-            <input type="range" id="range" min="0" max="100" value="80" />
-            <div class="completion">
-              <p>4/5</p>
-              <p>80%</p>
-            </div>
-          </div>
-          <div class="item">
-            <p class="title">Typography Basics</p>
-            <input type="range" id="range" min="0" max="100" value="60" />
-            <div class="completion">
-              <p>3/5</p>
-              <p>60%</p>
-            </div>
-          </div>
-          <div class="item">
-            <p class="title">Color Basics</p>
-            <input type="range" id="range" min="0" max="100" value="40" />
-            <div class="completion">
-              <p>2/5</p>
-              <p>40%</p>
-            </div>
-          </div>
-          <div class="item">
-            <p class="title">Modular mesh</p>
-            <input type="range" id="range" min="0" max="100" value="60" />
-            <div class="completion">
-              <p>3/5</p>
-              <p>60%</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </aside>
-
-    <main>
-      <section class="category">
-        <div class="item">English</div>
-        <div class="item">Product</div>
-        <div
-          style="background-color: var(--blueColor); color: white"
-          class="item"
-        >
-          UX/UI Design
-        </div>
-        <div class="item">Photography</div>
-        <div class="item">Time Management</div>
-        <div class="item">Development</div>
-        <div class="item">Graphic Design</div>
-        <div class="item">History of England</div>
-      </section>
-
-      <section class="cards">
-        <p class="box-title">
-          Article <span style="color: var(--blueColor)">162</span>
-        </p>
-        <div class="left-cards">
-          <div class="card1">
-            <div class="details">
-              <div class="description">
-                <h1>
-                  Inclusive Design <br />
-                  Principles
-                </h1>
-                <div class="clock">
-                  <img src="/assets/clock.svg" alt="clock icon" />
-                  <span>5 min</span>
-                </div>
-              </div>
-              <div class="author">
-                <img src="/assets/rosemary.png" alt="author icon" />
-                <div>
-                  <p>Rosemary Steward</p>
-                  <span>Feb 11</span>
-                </div>
-              </div>
-            </div>
-            <!-- illustration image -->
-            <img class="design" src="/assets/design.png" alt="illustration image"/>
-          </div>
-
-          <div class="card2">
-            <div class="details">
-              <div class="description">
-                <h1>
-                  Design Trends <br />
-                  in 2020
-                </h1>
-                <div class="clock">
-                  <img src="/assets/clock.svg" alt="clock icon" />
-                  <span>1 min</span>
-                </div>
-              </div>
-              <div class="author">
-                <img src="/assets/bessie.png" alt="author icon" />
-                <div>
-                  <p>Bessie Bell</p>
-                  <span>Feb 4</span>
-                </div>
-              </div>
-            </div>
-            <!-- illustration image -->
-            <img class="globe" src="/assets/globe.png" alt="illustration image">
-          </div>
-        </div>
-
-        <div class="right-cards">
-          <p class="box-title">
-            Theme Chats <span style="color: var(--blueColor)">24</span>
-          </p>
-          <div class="card">
-            <img src="/assets/edu.png" alt="Education illustration" />
-            <p>Education</p>
-          </div>
-          <div class="card">
-            <img src="/assets/work.png" alt="Work illustration" />
-            <p>Work</p>
-          </div>
-          <div class="card">
-            <img src="/assets/uni.png" alt="University illustration" />
-            <p>University</p>
-          </div>
-          <div class="card">
-            <img src="/assets/tech.png" alt="Technology illustration" />
-            <p>Technology</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="cards videos">
-        <p class="box-title">
-          Video Lessons <span style="color: var(--blueColor)">124</span>
-        </p>
-        <div class="left-cards">
-          <div class="card1">
-            <h1>
-              We create effective <br />
-              texts for landing
-            </h1>
-            <div class="author author-vid">
-              <img src="/assets/randall.png" alt="author icon" />
-              <div>
-                <p style="color: white">Randall Mccoy</p>
-                <span>CEO, California Tech.</span>
-              </div>
-            </div>
-            <div class="duration">10.08</div>
-          </div>
-          <div class="card-grid">
-            <div class="card-item">
-              <p>We make a website busines card. Training</h3>
-               <div class="author author-vid">
-              <img src="/assets/jorge.png" alt="author icon" />
-              <div>
-                <p style="color: white">Jorge Murphy</p>
-                <span>Senior Designer</span>
-              </div>
-            </div>
-            </div>
-            <div class="card-item">
-              <p>Web animation. The basics</h3>
-               <div class="author author-vid">
-              <img src="/assets/randal.png" alt="author icon" />
-              <div>
-                <p style="color: white">Randall Richards</p>
-                <span>Art Director</span>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="right-cards">
-          <div class="box-title">
-            <p>Top Teachers</p>
-            <img src="/assets//arrow_right.svg" alt="arrow_right" />
-          </div>
-          <div class="teacher">
-            <div style="display: flex; column-gap: 12px; align-items: center">
-              <img
-                src="/assets/marvin.png"
-                alt="Teacher avatar"
-                style="width: 50px; height: 50px"
-              />
-              <div>
-                <h4>Marvin Hawkins</h4>
-                <p>5 years experience</p>
-              </div>
-            </div>
-            <span style="color: var(--blueColor); font-weight: 700">5.0</span>
-          </div>
-
-          <div class="teacher">
-            <div style="display: flex; column-gap: 12px; align-items: center">
-              <img
-                src="/assets/arthur.png"
-                alt="Teacher avatar"
-                style="width: 50px; height: 50px"
-              />
-              <div>
-                <h4>Arthur Mckinney</h4>
-                <p>6 years experience</p>
-              </div>
-            </div>
-            <span style="color: var(--blueColor); font-weight: 700">4.9</span>
-          </div>
-          <div class="teacher">
-            <div style="display: flex; column-gap: 12px; align-items: center">
-              <img
-                src="/assets/watson.png"
-                alt="Teacher avatar"
-                style="width: 50px; height: 50px"
-              />
-              <div>
-                <h4>Bessie Watson</h4>
-                <p>2 years experience</p>
-              </div>
-            </div>
-            <span style="color: var(--blueColor); font-weight: 700">4.8</span>
-          </div>
-          <div class="teacher">
-            <div style="display: flex; column-gap: 12px; align-items: center">
-              <img
-                src="/assets/albert.png"
-                alt="Teacher avatar"
-                style="width: 50px; height: 50px"
-              />
-              <div>
-                <h4>Albert Bell</h4>
-                <p>3 years experience</p>
-              </div>
-            </div>
-            <span style="color: var(--blueColor); font-weight: 700">4.8</span>
-          </div>
-        </div>
-      </section>
-    </main>
   </body>
 </html>
